@@ -2,7 +2,7 @@
 
 ![Console screen after a successful run](Screenshot_1.jpg)
 
-An ESP32-S3 that joins the console's **Civ VII wireless lobby** and injects the
+An ESP32-S3/C3 that joins the console's **Civ VII wireless lobby** and injects the
 CivSwitch payload over **local wireless** — no PC, no USB HID typing, no Wi-Fi
 or LAN access, and **no system-language or controller-layout changes**.
 
@@ -37,7 +37,7 @@ the local-wireless link.
 
 | Item | Value |
 |---|---|
-| Board | ESP32-S3, **16 MB flash** (4 MB works if you shrink the storage partition) |
+| Board | ESP32-S3, **16 MB flash** (4 MB works if you shrink the storage partition, e.g. ESP32-C3) |
 | Toolchain | ESP-IDF **v6.1** |
 | Host tools | Node.js (for `terser`), Python 3.10+ |
 | Console | Switch 2, Civ VII **1.0.0 physical cartridge** (Switch 1 edition) |
